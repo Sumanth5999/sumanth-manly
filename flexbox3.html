@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-size: 20px;
+            box-sizing: border-box;
+        }
+        #container{
+            display: flex;
+            flex-direction: column;
+            flex: 1 100%;
+            min-height: 100px;
+        }
+        #logo{
+            display: flex;
+            flex-direction: row;
+            min-height: 50px;
+            background-color: lightgray;
+            align-items: center;
+            padding-left: 10px;
+        }
+        #main{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            min-height: 500px;
+            margin-top: 10px;
+            justify-content: space-between;
+        }
+        #left{
+            display: flex;
+            flex-direction: column;
+            flex-basis: 20%;
+        }
+        #right{
+            display: flex;
+            flex-direction: column;
+            flex-basis: 75%;
+        }
+        #header-banner{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            min-height: 100px;
+            background-color: lightgray;
+            align-items: center;
+            justify-content: center;
+        }
+        #body-area{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            min-height: 390px;
+            background-color: lightgray;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        #footer{
+            display: flex;
+            flex-direction: row;
+            min-height: 50px;
+            background-color: lightgray;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+
+     <div id="logo">logo</div>
+
+    <div id="main">
+
+       <div id="left">
+           <div id="sidebar">sidebar</div>
+           <div id="navigation">navigation</div>  
+       </div>
+
+       <div id="right">
+           <div id="header-banner">header/banner</div>
+           <div id="body-area">Body Area</div>
+       </div>
+
+    </div>
+
+     
+   <div id="footer">footer</div>
+
+   </div>
+
+   
+
+</body>
+</html>

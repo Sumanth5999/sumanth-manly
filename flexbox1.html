@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sumanth</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-size: 20px;
+        }
+        #container{
+            display: flex;
+            flex-direction: column;
+            flex: 1 100%;
+            min-height: 100px;
+
+        }
+        #logo{
+            display: flex;
+            flex-direction: row;
+            min-height: 50px;
+            background-color: lightgray;
+            align-items: center;
+            padding-left: 10px;
+            
+        }
+        #navigation{
+            display: flex;
+            flex-direction: row;
+            min-height: 35px;
+            background-color: lightgray;
+            margin-top: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        #header-banner{
+            display: flex;
+            flex-direction: row;
+            min-height: 100px;
+            background-color: lightgray;
+            margin-top: 10px;
+            justify-content: center;
+            align-items: center;
+
+        }
+        #main{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            min-height: 400px;
+            margin-top: 10px;
+            justify-content: space-between;
+        }
+        #sidebar{
+            display: flex;
+            flex-direction: row;
+            flex-basis: 25%;
+            background-color: lightgray;
+            justify-content: center;
+            align-items: center;
+        }
+        #bodyarea{
+            display: flex;
+            flex-direction: row;
+            flex-basis: 70%;
+            background-color: lightgray;
+            justify-content: center;
+            align-items: center;
+        }
+      #footer{
+        display: flex;
+        flex-direction: row;
+        min-height: 50px;
+        background-color: lightgray;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+      }
+
+    </style>
+</head>
+<body>
+   <div id="container">
+
+     <div id="logo">logo</div>
+     <div id="navigation">navigation</div>
+     <div id="header-banner">header/banner</div>
+
+   <div id="main">
+     <div id="sidebar">sidebar</div>
+     <div id="bodyarea">bodyarea</div>
+   </div>
+
+   <div id="footer">footer</div>
+
+   </div>
+</body>
+</html>
